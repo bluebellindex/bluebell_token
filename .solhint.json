@@ -1,0 +1,16 @@
+{
+    "extends": "solhint:recommended",
+    "plugins": [],
+    "rules": {
+        "reason-string": ["warn", {"maxLength": 64}],
+        "func-param-name-mixedcase": "off",
+        "modifier-name-mixedcase": "off",
+        "var-name-mixedcase": "off",
+        "private-vars-leading-underscore": "warn",
+        "func-visibility": ["off"],
+        "compiler-version": ["error", "^0.8.4"],
+        "reentrancy": "error",
+        "ordering": "warn",
+        "comprehensive-interface": "off"
+    }
+}

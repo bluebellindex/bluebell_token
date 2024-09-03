@@ -1,0 +1,13 @@
+{
+    "solidity.defaultCompiler": "remote",
+    "solidity.compileUsingRemoteVersion": "latest",
+    "solidity.remappingsUnix": ["@openzeppelin/=node_modules/@openzeppelin/"],
+    "solidity.remappingsWindows": [
+        "@openzeppelin\\=node_modules\\@openzeppelin\\"
+    ],
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#1A2962",
+        "titleBar.activeBackground": "#253A89",
+        "titleBar.activeForeground": "#FBFBFE"
+    }
+}
